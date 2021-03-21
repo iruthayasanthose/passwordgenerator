@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Play&family=Podkova&family=Poppins:wght@700&display=swap");
+@import "form";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+body {
+  width: 100%;
+  background-color: #010203;
+}
+.main-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.heading {
+  border: 1px white transparent;
+  position: relative;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+.heading h1 {
+  color: #fb0081;
+  font-size: 6rem;
+}
+.heading p {
+  font-family: Podkova;
+  color: #cccccc;
+  font-size: 20px;
+  font-weight: 900;
+  margin-top: 30px;
+}
+
+.passgen {
+  border: 1px white transparent;
+  margin-top: 150px;
+  margin-right: 50px;
+  width: 40%;
+}
+
+@media (max-width: 600px) {
+  .main-container {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .heading {
+    margin-top: 100px;
+    padding-left: 35px;
+    margin-left: -5px;
+  }
+  .heading h1 {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+  .heading p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: -3px;
+  }
+  .passgen {
+    border: 1px white solid;
+    margin-top: 50px;
+    width: 100%;
+  }
+}

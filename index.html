@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css" />
+    <!--CSS-form-->
+    <link rel="stylesheet" href="form/css/style-form.css" />
+
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="heading">
+        <h1>
+          THE PASSWORD <br />
+          GENERATOR
+        </h1>
+        <p>The quickiest way to generate strong passwords.</p>
+      </div>
+      <div class="passgen">
+        <div class="main">
+          <div class="container">
+            <div class="signup-content">
+              <div class="signup-form">
+                <form
+                  method="POST"
+                  class="register-form"
+                  id="register-form"
+                  onreset="myFunction()"
+                >
+                  <div class="form-row">
+                    <div class="form-group">
+                      <div class="form-input">
+                        <label for="chequeno">No.of Characters</label>
+                        <input
+                          type="text"
+                          name="chequeno"
+                          id="userInput"
+                          placeholder="Max of 16 characters."
+                        />
+                      </div>
+                      <div class="form-radio">
+                        <div class="label-flex">
+                          <label for="payment">It must consists of</label>
+                        </div>
+                        <div class="form-radio-group">
+                          <div class="form-radio-item">
+                            <input
+                              type="radio"
+                              name="alphabets"
+                              id="alphabets"
+                              checked
+                            />
+                            <label for="alphabets">Alphabets</label>
+                            <span class="check"></span>
+                          </div>
+                          <div class="form-radio-item">
+                            <input type="radio" name="numbers" id="numbers" />
+                            <label for="numbers">Numbers</label>
+                            <span class="check"></span>
+                          </div>
+                          <div class="form-radio-item">
+                            <input type="radio" name="symbols" id="symbols" />
+                            <label for="symbols">Symbols</label>
+                            <span class="check"></span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-input">
+                        <label for="result">Your Password</label>
+                        <input type="text" name="result" id="result" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-submit">
+                    <input
+                      type="button"
+                      value="Go"
+                      class="submit"
+                      id="submit"
+                      name="submit"
+                      onclick="getPass()"
+                    />
+                    <input
+                      type="button"
+                      value="Copy"
+                      class="submit"
+                      id="copy"
+                      name="copy"
+                      onclick="copypass()"
+                    />
+                    <input
+                      type="reset"
+                      value="Reset"
+                      class="submit"
+                      id="reset"
+                      name="reset"
+                    />
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Powered by ERROR TECH All Rights reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
