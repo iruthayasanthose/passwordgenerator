@@ -70,11 +70,11 @@ Room for improvement:
 
 ## Acknowledgements
 
-- Thanks to the Stack Overflow firnds for clear my doubts.
+- Thanks to the Stack Overflow friends for clear my doubts.
 
 
 ## Contact
-Created by [@flynerdpl](https://www.instagram.com/iruthaya__/) - feel free to contact me!
+Created by [@iruthaya__](https://www.instagram.com/iruthaya__/) - feel free to contact me!
 
 
 <!-- Optional -->
