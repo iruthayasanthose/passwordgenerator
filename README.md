@@ -1,6 +1,6 @@
 # Passwords Generator
-> Outline a brief description of your project.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+> Passwords Generator is a web-app. It produce passwords using upto range of 16 characters in four different methods [only alphabets, only numbers, only symbols, and mix of all above three]. The UI was in dark-mode, because my personal prefernce is always dark colours and an average responsive to small screens. You can generate N number of random passwords using this webapp. Visit the link below.
+> Live [_website_](https://iruthayasanthose.github.io/passwordgenerator/).
 
 ## Table of Contents
 * [General Info](#general-information)
