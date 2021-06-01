@@ -17,69 +17,64 @@
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- I developed this project as my first javascript web app to test out my knowledge in JS.
+- I need to implement a dark-mode , light-mode toggle in feature.
+- I intend to deliver some great random passwords to the netizens to protect their social accounts from Hackers. (A small help from myside.)
+- Hoping they may like this app.
 
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- HTML5
+- CSS3
+- SCSS
+- Javascript
 
 
 ## Features
 List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+- Produce random passwords from range 2 - 16 characters.
+- Three types of options available.[Alphabets, Numbers, Symbols]
+- You can copy the passwords using COPY button.
+- Reset the fields using RESET button.
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Screenshot](./img/screenshot.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
+There is no any special tasks to setup this project in your local system.
+- Just DOWNLOAD or CLONE the project.
+- And, start working.
+- That's it!
 
 
 ## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
-
+- Type, How many characters of password you need.
+- Select Which are the you need to include in your passwords [Default is Alphabets].
+- Enter GO.
+- Finally Copy the passwords using COPY button.
+- If you want to reset the passwords fields, then just press RESET button.
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+Project is: _complete_
 
 
 ## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
 
 Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
+- Responsive Design
+- Light mode
 
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
+
+- Thanks to the Stack Overflow firnds for clear my doubts.
 
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [@flynerdpl](https://www.instagram.com/iruthaya__/) - feel free to contact me!
 
 
 <!-- Optional -->
